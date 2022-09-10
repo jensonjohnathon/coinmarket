@@ -1,0 +1,30 @@
+h3 {
+  color: white;
+}
+
+.WalletCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+/* #Account,
+#Balance {
+  text-align: left;
+  text-indent: 2em;
+} */
+
+#Error {
+  color: white;
+}
+
+#Connect {
+  /* position: absolute;
+  right: 10%; */
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: larger;
+}
